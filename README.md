@@ -78,13 +78,3 @@ New-ADUser -Name "John Doe" -GivenName "John" -Surname "Doe"
 
 
 
-# Enterprise Hybrid Identity Architecture: Multi-Cloud Federated Access (Okta & Microsoft Entra ID)
-
-## 📌 Executive Summary
-Modern enterprise environments demand centralized, secure, and automated identity lifecycles. This project demonstrates the engineering and deployment of a resilient, production-grade **Hybrid Identity Pipeline**. Using an on-premises Active Directory forest as the single source of truth, this architecture establishes secure, real-time identity provisioning to the world's leading cloud Identity Providers (IdPs): **Okta** and **Microsoft Entra ID**. 
-
-By layering **SAML 2.0 Federated Single Sign-On (SSO)** onto the pipeline, this project simulates a real-world enterprise infrastructure—reducing user friction, mitigating identity silos, and closing security gaps across third-party SaaS environments.
-
----
-
-## 🏗️ Architectural Topology & Data Flow
