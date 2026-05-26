@@ -8,11 +8,10 @@ By integrating an on-premises ecosystem with cloud-native identity providers, th
 ---
 
 ## 🎯 Objectives
-- Deploy and configure Active Directory Domain Services (AD DS)
-- Create and manage users, groups, and Organizational Units (OUs)
-- Implement Group Policy Objects (GPOs) for security and control
-- Simulate real-world IT support tasks (password resets, account lockouts, etc.)
-- Automate administrative tasks using PowerShell
+- Automate Identity Lifecycles: Implement automated Joiner, Mover, and Leaver workflows using data-driven logic from a simulated HR source.
+- Establish Hybrid Identity Synchronization: Bridge the gap between on-premises infrastructure and cloud identity environments.
+- Enforce Governance and Least Privilege: Ensure role-based access control (RBAC) adjusts dynamically when a user's corporate status or department changes.
+- Secure Offboarding: Create a foolproof, automated "Leaver" protocol that revokes access across all integrated cloud and on-premises platforms simultaneously.
 
 ---
 
@@ -28,15 +27,6 @@ By integrating an on-premises ecosystem with cloud-native identity providers, th
 ---
 
 ## 🏗️ Lab Architecture
-iamcloud.online (Domain Root)
-└── IAMCloud_Corp (Main OU)
-    ├── Corporate_HQ
-    │   ├── HR
-    │   └── IT_Security
-    ├── Clinical_Staff
-    │   ├── Nursing
-    │   └── Physicians
-    └── Disabled_Users (Critical for the Leaver process)
 
 - 1 Domain Controller (Windows Server)
 - (Optional) 1–2 Client Machines (Windows 10/11)
