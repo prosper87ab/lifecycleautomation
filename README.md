@@ -29,6 +29,10 @@ By integrating an on-premises ecosystem with cloud-native identity providers, th
 
 ## 🏗️ Lab Architecture
 
+<img width="1038" height="652" alt="architecture" src="https://github.com/user-attachments/assets/dae6b354-9dc2-426c-9c17-9558afd62382" />
+
+
+
 This shows the VMware environment where all actions will be taking place.
 
 <img width="3837" height="2056" alt="vm1" src="https://github.com/user-attachments/assets/0cf7979e-52d1-4a6e-84fe-59f5faa8e1ef" />
