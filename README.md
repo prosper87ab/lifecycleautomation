@@ -1,3 +1,4 @@
+
 # # 🔐 Identity Governance & The Lifecycle (Joiner, Mover, Leaver)
 
 ## 📌 Project Overview
@@ -28,12 +29,9 @@ By integrating an on-premises ecosystem with cloud-native identity providers, th
 
 ## 🏗️ Lab Architecture
 
-- 1 Domain Controller (Windows Server)
-- (Optional) 1–2 Client Machines (Windows 10/11)
-- Domain: `yourdomain.local`
-- Users organized into departments (HR, IT, Finance)
+This shows the VMware environment where all actions will be taking place.
 
-*(Insert diagram screenshot here)*
+<img width="3837" height="2056" alt="vm1" src="https://github.com/user-attachments/assets/0cf7979e-52d1-4a6e-84fe-59f5faa8e1ef" />
 
 ---
 
